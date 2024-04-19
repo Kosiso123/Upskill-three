@@ -15,6 +15,7 @@ body{
     background-position: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-attachment: fixed;
 }
 .wrapper{
     width: 500px;
@@ -25,6 +26,7 @@ body{
     border: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
 
 
 
@@ -40,11 +42,13 @@ body{
 }
 .input-box{
     margin: 10px;
+    padding-bottom: 20px;
     
 
 }
 .input-box p{
     font-size: 18px;
+    padding-bottom: 5px;
 }
 .input-box input{
     width: 100%;
@@ -74,12 +78,29 @@ body{
     font-size: 18px;
     
 }
+.recommend p{
+    padding-bottom: 5px;
+}
+.framework p{
+    padding-bottom:5px;
+}
 .framework{
     font-size: 18px;
     padding: 10px;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
+    
     
 }
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container .group{
+    margin: 5px;
+}
+
+ 
+
 .area{
     font-size: 18px;
     margin: 10px;
